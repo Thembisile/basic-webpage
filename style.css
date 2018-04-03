@@ -1,0 +1,125 @@
+html, body {
+  padding: 0;
+  margin:0;
+  width: 100%;
+}
+body{
+
+    background-color: silver;
+    font-family: "Times New Roman",helvetica, arial, monospace, sans-serif
+    ms-text-size-adjust: 100%;
+    webkit-text-size-adjust: 100%;
+}
+
+h1{
+  text-align:center;
+}
+
+#container{
+    max-width: 920px;
+    margin:0 auto;
+    padding: 1em;
+}
+h2 {
+  text-align: center;
+}
+
+#profile-cover img{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    max-width: 400px;
+    width: 100%
+    float:right;
+    border-radius: 50px;
+    height: 250px;
+    margin-left: 55px;
+}
+
+p{
+    float: left;
+    width: 300px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#which-city{
+    color: black;
+    text-decoration: underline;
+    width: 100%;
+    max-width: 500px;
+    float: left;
+    padding: 10px;
+
+}
+#video {
+  float: right;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: -40px;
+}
+
+#Language{
+    font-size: 20px;
+    width: 100%;
+    max-width: 400px;
+    padding-left: 10px;
+}
+
+
+#Swahili{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: -10px;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#Table {
+    width:100%;
+    max-width: 920px;
+    margin: 60px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+td, th, tr {
+    border: 2px solid black;
+    height: 30px;
+    width: 320px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+#translation-table {
+    border: 3px solid black;
+    border-style: double;
+}
+
+#Historical-places-heading {
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+#HisText {
+    font-size: 18px;
+    float: right;
+
+}
+#castle-text {
+    margin-top: 40px;
+}
+
+#district-text {
+    float: right;
+    margin-top: 20px;
+    font-size: 23px;
+    font-style: italic;
+    margin-right: -5px;
+
+}
+@media screen and (max-width:640px){
+img {
+  max-width: 85%;
+}
+}
